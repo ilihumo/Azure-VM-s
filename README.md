@@ -140,12 +140,3 @@ SSH into the control node
 Copied the configuration files to files directory from root@271d900a3e10:/etc/ansible#.
 Updated the preconfigured file to include the correct IP address.
 Run the playbook, and navigate to ansible-playbook filebeat-playbook.yml 
-
-
-- Which file is the playbook? Filebeat-playbook.yml metricbeat-playbook.yml
-Where do you copy it? In the directory called files.
-*- Which file do you update to make Ansible run the playbook on a specific machine? 
-*How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-*- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
